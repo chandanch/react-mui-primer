@@ -7,6 +7,9 @@ function App() {
       <Button variant="contained" size="small" color="primary">
         Show User Details
       </Button>
+      <Button variant="contained" color="secondary">
+        Print Data
+      </Button>
     </div>
   );
 }
