@@ -1,11 +1,11 @@
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
-      <h1>React MUI Primer</h1>
+      <Typography variant="h2">React Materail UI Primer</Typography>
       <Button variant="contained" size="small">
-        Show Details
+        Show User Details
       </Button>
     </div>
   );
