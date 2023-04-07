@@ -1,4 +1,5 @@
 import { Button, Typography } from '@mui/material';
+import Widget from './components/widget';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </Button>
       <hr />
       <Typography variant="captorText">Custom Typography Variant</Typography>
+      <Widget />
     </div>
   );
 }
