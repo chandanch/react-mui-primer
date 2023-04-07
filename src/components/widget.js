@@ -1,4 +1,4 @@
-import { Paper, Typography } from '@mui/material';
+import { Button, Paper, Typography } from '@mui/material';
 
 const Widget = () => {
   return (
@@ -19,6 +19,10 @@ const Widget = () => {
         </Typography>
       </Paper>
       <Paper elevation={2}>Paper 2 </Paper>
+      --------------------------
+      <Button variant="outlined" sx={{ color: 'primerColor.light' }}>
+        Elevate Details
+      </Button>
     </div>
   );
 };

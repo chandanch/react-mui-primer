@@ -13,6 +13,11 @@ const theme = createTheme({
     secondary: {
       main: orange[600],
     },
+    primerColor: {
+      main: '#3f51b5',
+      dark: '#303f9f',
+      light: '#9fa8da',
+    },
   },
   typography: {
     captorText: {
