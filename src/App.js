@@ -10,6 +10,8 @@ function App() {
       <Button variant="contained" color="secondary">
         Print Data
       </Button>
+      <hr />
+      <Typography variant="captorText">Custom Typography Variant</Typography>
     </div>
   );
 }

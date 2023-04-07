@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import { ThemeProvider, createTheme } from '@mui/material';
-import { green, orange } from '@mui/material/colors';
+import { orange } from '@mui/material/colors';
 
 const theme = createTheme({
   palette: {
@@ -12,6 +12,12 @@ const theme = createTheme({
     },
     secondary: {
       main: orange[600],
+    },
+  },
+  typography: {
+    captorText: {
+      fontSize: '15px',
+      fontWeight: 500,
     },
   },
 });
