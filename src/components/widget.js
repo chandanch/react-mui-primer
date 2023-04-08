@@ -20,6 +20,7 @@ const Widget = () => {
       </Paper>
       <Paper elevation={2}>Paper 2 </Paper>
       --------------------------
+      <br />
       <Button variant="outlined" sx={{ color: 'primerColor.light' }}>
         Elevate Details
       </Button>

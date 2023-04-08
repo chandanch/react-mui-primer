@@ -1,5 +1,6 @@
 import { Button, Typography } from '@mui/material';
 import Widget from './components/widget';
+import PrimerButton from './components/PrimerButton';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
       </Button>
       <hr />
       <Typography variant="captorText">Custom Typography Variant</Typography>
+
       <Widget />
+
+      <PrimerButton variant="contained">Custom Primer Button</PrimerButton>
     </div>
   );
 }
